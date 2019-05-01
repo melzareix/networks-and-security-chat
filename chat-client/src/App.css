@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #ffffff;
+  height: 100%;
+}
+
+
+html, body, #root, #root>div {
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+.chat-inp {
+  border: 1px solid #eeeeee;
+}
+.active-users h2 {
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #bbbbbb;
+}
+.active-users{
+  width: 30%;
+  height: 100%;
+  background: red;
+  border-right: 1px solid #bbbbbb;
+}
+
+.active-users ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.active-users li {
+  height: 30px;
+  background: #eeeeee;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
