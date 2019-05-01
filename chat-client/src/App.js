@@ -154,7 +154,7 @@ export default class App extends Component {
     // send to all people
     if (this.state.selectedChat === '###LOBY###') {
       msg.lobby = true;
-      msg.text = Steg.encode(`From ${msg.from}: ${msg.text}`, this.stegImage);
+      msg.text = Steg.encode(`From ${msg.from}: ${msgText}`, this.stegImage);
       this.sendAll(msg);
     } else {
       const conn = this.peer.connect(this.state.selectedChat);
