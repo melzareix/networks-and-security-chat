@@ -1,9 +1,5 @@
 # Networks And Security Chat
 
-### DEMO, PRESENTATION & REPORT
-
-https://drive.google.com/drive/folders/1OuATUaz6zDwl2xqCyc8qKix56qQwAepK?usp=sharing
-
 ---
 ## Installation
 ---
