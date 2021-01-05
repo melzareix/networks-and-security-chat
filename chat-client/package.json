@@ -5,7 +5,7 @@
   "dependencies": {
     "@livechat/ui-kit": "^0.4.0-1",
     "@progress/kendo-react-conversational-ui": "^2.10.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "react": "^16.8.6",
     "react-chat-elements": "^10.5.0",
